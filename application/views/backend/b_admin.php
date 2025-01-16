@@ -21,55 +21,86 @@
  				</div>
  			</div>
  			<!-- widgets -->
- 			<div class="row my-4">
- 				<div class="col-md-4">
- 					<div class="card shadow mb-4">
+ 			<div class="row">
+ 				<div class="col-md-6 col-xl-3 mb-4">
+ 					<div class="card shadow bg-primary text-white border-0">
  						<div class="card-body">
  							<div class="row align-items-center">
- 								<div class="col">
- 									<small class="text-muted mb-1">Page Views</small>
- 									<h3 class="card-title mb-0">1168</h3>
- 									<p class="small text-muted mb-0"><span class="fe fe-arrow-down fe-12 text-danger"></span><span>-18.9% Last week</span></p>
+ 								<div class="col-3 text-center">
+ 									<span class="circle circle-sm bg-primary-light">
+ 										<i class="fe fe-16 fe-book text-white mb-0"></i>
+ 									</span>
  								</div>
- 								<div class="col-4 text-right">
- 									<span class="sparkline inlineline"></span>
+ 								<div class="col pr-0">
+ 									<p class="small text-muted mb-0">MATA LOMBA</p>
+ 									<span class="h3 mb-0 text-white"><?= $jumlahl ?></span>
+ 									<!-- <span class="small text-muted">+5.5%</span> -->
  								</div>
- 							</div> <!-- /. row -->
- 						</div> <!-- /. card-body -->
- 					</div> <!-- /. card -->
- 				</div> <!-- /. col -->
- 				<div class="col-md-4">
- 					<div class="card shadow mb-4">
+ 							</div>
+ 						</div>
+ 					</div>
+ 				</div>
+ 				<div class="col-md-6 col-xl-3 mb-4">
+ 					<div class="card shadow border-0">
  						<div class="card-body">
  							<div class="row align-items-center">
- 								<div class="col">
- 									<small class="text-muted mb-1">Conversion</small>
- 									<h3 class="card-title mb-0">68</h3>
- 									<p class="small text-muted mb-0"><span class="fe fe-arrow-up fe-12 text-warning"></span><span>+1.9% Last week</span></p>
+ 								<div class="col-3 text-center">
+ 									<span class="circle circle-sm bg-primary">
+ 										<i class="fe fe-16 fe-user text-white mb-0"></i>
+ 									</span>
  								</div>
- 								<div class="col-4 text-right">
- 									<span class="sparkline inlinepie"></span>
+ 								<div class="col pr-0">
+ 									<p class="small text-muted mb-0">JUMLAH PESERTA</p>
+ 									<span class="h3 mb-0"><?= $jumlah ?></span>
+ 									<!-- <span class="small text-success">+16.5%</span> -->
  								</div>
- 							</div> <!-- /. row -->
- 						</div> <!-- /. card-body -->
- 					</div> <!-- /. card -->
- 				</div> <!-- /. col -->
- 				<div class="col-md-4">
- 					<div class="card shadow mb-4">
+ 							</div>
+ 						</div>
+ 					</div>
+ 				</div>
+ 				<div class="col-md-6 col-xl-3 mb-4">
+ 					<div class="card shadow border-0">
  						<div class="card-body">
  							<div class="row align-items-center">
+ 								<div class="col-3 text-center">
+ 									<span class="circle circle-sm bg-primary">
+ 										<i class="fe fe-16 fe-user text-white mb-0"></i>
+ 									</span>
+ 								</div>
  								<div class="col">
- 									<small class="text-muted mb-1">Visitors</small>
- 									<h3 class="card-title mb-0">108</h3>
- 									<p class="small text-muted mb-0"><span class="fe fe-arrow-up fe-12 text-success"></span><span>37.7% Last week</span></p>
+ 									<p class="small text-muted mb-0">REGISTRASI</p>
+ 									<div class="row align-items-center no-gutters">
+ 										<div class="col-auto">
+ 											<span class="h3 mr-2 mb-0"> 86.6% </span>
+ 										</div>
+ 										<div class="col-md-12 col-lg">
+ 											<div class="progress progress-sm mt-2" style="height:3px">
+ 												<div class="progress-bar bg-success" role="progressbar" style="width: 87%" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100"></div>
+ 											</div>
+ 										</div>
+ 									</div>
  								</div>
- 								<div class="col-4 text-right">
- 									<span class="sparkline inlinebar"></span>
+ 							</div>
+ 						</div>
+ 					</div>
+ 				</div>
+ 				<div class="col-md-6 col-xl-3 mb-4">
+ 					<div class="card shadow border-0">
+ 						<div class="card-body">
+ 							<div class="row align-items-center">
+ 								<div class="col-3 text-center">
+ 									<span class="circle circle-sm bg-primary">
+ 										<i class="fe fe-16 fe-user text-white mb-0"></i>
+ 									</span>
  								</div>
- 							</div> <!-- /. row -->
- 						</div> <!-- /. card-body -->
- 					</div> <!-- /. card -->
- 				</div> <!-- /. col -->
+ 								<div class="col">
+ 									<p class="small text-muted mb-0">VALIDASI PESERTA</p>
+ 									<span class="h3 mb-0"><?= $jumlahv ?></span>
+ 								</div>
+ 							</div>
+ 						</div>
+ 					</div>
+ 				</div>
  			</div> <!-- end section -->
  			<!-- linechart -->
  			<div class="my-4">
